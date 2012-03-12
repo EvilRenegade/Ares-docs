@@ -19,7 +19,7 @@ but when a corner post is destroyed, the fences connected to it are
 lost. When the corner post loses power, the fences connected to it go
 offline and become freely passable. When the post regains power, the
 fences reactivate and any object unfortunate enough to be traversing
-them will be destroyed. Laser Fences LaserFence= LaserFencePost=
+them will be destroyed.
 
 .. versionadded:: 0.1
 
