@@ -83,7 +83,7 @@ Different Flag Combinations
 |                         | ``EMP.Duration`` is positive                                   | ``EMP.Duration`` is negative                                   |
 +-------------------------+----------------------------------------------------------------+----------------------------------------------------------------+
 | ``EMP.Cap`` is positive | The EMP counter is increased by the value of ``EMP.Duration``, | The EMP counter is reduced by the value of ``EMP.Duration``.   |
-|                         | up to, but not beyond the value of ``EMP.Cap``.                | If this value is still greater than ``EMP.Cap`` then the EMP   |
+|                         | up to, but not beyond, the value of ``EMP.Cap``.               | If this value is still greater than ``EMP.Cap`` then the EMP   |
 |                         |                                                                | counter is reduced further so that it is equal to ``EMP.Cap``. |
 +-------------------------+----------------------------------------------------------------+----------------------------------------------------------------+
 | ``EMP.Cap`` is zero     | The EMP counter is increased by the value of ``EMP.Duration``. | ``EMP.Duration`` is ignored. The EMP counter will be set to    |

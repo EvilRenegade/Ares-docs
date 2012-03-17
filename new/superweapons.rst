@@ -147,7 +147,7 @@ Targeting
 .. versionadded:: 0.1
 
 
-
+.. _sw-cursors:
 Cursors
 ```````
 
