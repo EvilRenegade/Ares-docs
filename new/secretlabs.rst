@@ -22,13 +22,13 @@ these flags to be considered.
 
 Each possible boon can specify the following flags...
 
-:[Boon]Secret.RequiredHouses= (list of countries): Which countries are
+:[Boon]SecretLab.RequiredHouses= (list of countries): Which countries are
   allowed to get this unit as a secret lab boon. This is only checked
   when the boon is picked so if `SecretLab.GenerateOnCapture=no` then
   the boon can still be obtained by a country not on the
   `Secret.RequiredHouses` list (if the original owner's country is on
   the list). Secret.RequiredHouses=
-:[Boon]Secret.ForbiddenHouses= (list of countries): Which countries
+:[Boon]SecretLab.ForbiddenHouses= (list of countries): Which countries
   are not allowed to get this unit as a secret lab boon. This is only
   checked when the boon is picked so if `SecretLab.GenerateOnCapture=no`
   then the boon can still be obtained by a country that is on the
